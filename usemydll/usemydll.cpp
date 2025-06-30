@@ -45,7 +45,7 @@ int main()
 	std::cout << "thread handle: " << threaHandle << "\n";
 	std::cout << "thread id with function: " << GetThreadId(threaHandle) << "\n";
 
-	CloseHandle(processHandle); //TODO don't forget to close the handle
+	//CloseHandle(processHandle); //TODO don't forget to close the handle
 	
 
 	//std::cout << "Which process would you like to inject into?(process id)"
